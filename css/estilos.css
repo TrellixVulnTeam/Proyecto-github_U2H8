@@ -68,7 +68,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem, 
+    padding: 1rem;
 }
 
 .main__fotos img {
@@ -121,7 +121,7 @@ h3 {
 .cortesuso{
     width: 100%;
     height: 200px;
-    background-color: white;
+    background-image: linear-gradient(to left, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
     display: flex;
     justify-content: space-evenly;
 }
@@ -300,29 +300,38 @@ h4 {
 
     .main{
         width: 1350px;
+        background-image: linear-gradient(to left, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
     }
 
     .main__destacados__foto {
         width: 200px;
         height: 200px;
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: linear;
     }
 
-.recetas__link{
-    width: 50%;
-    height: 150px;
-    font-size: 60px;
+    .main__destacados__foto:hover {
+        width: 300px;
+        height: 300px;
     }
 
-.cortesuso__titulo__tabla__li__a{
-    text-decoration: none;
-    color: inherit;
-    font-size: 40px;
+    .recetas__link{
+        width: 50%;
+        height: 150px;
+        font-size: 60px;
     }
 
-.recetas__titulo{
-    width: 50%;
-    height: 150px;
-    font-size: 50px;
-    font-family: 'Open Sans', sans-serif; 
-    margin-left: 15px;
+    .cortesuso__titulo__tabla__li__a{
+        text-decoration: none;
+        color: inherit;
+        font-size: 40px;
+    }
+
+    .recetas__titulo{
+        width: 50%;
+        height: 150px;
+        font-size: 50px;
+        font-family: 'Open Sans', sans-serif; 
+        margin-left: 15px;
 }}
