@@ -1,189 +1,185 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-    </style>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200&display=swap");
-    </style>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/congelados.css" />
+<html lang="en">
+<head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:wght@300&family=Oswald:wght@200&display=swap");
+  </style>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+  </style>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200&display=swap");  
+  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/congelados.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Congelados</title>
-  </head>
-  <body>
+</head>
+<body>
     <header class="header">
-      <div class="tienda">
-        <h1>Tienda de carne "El Trebol"</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-left">
+                    <img class="logo" src="../assets/logo3.jpg" alt="fotoDelLogo" />
+                </div>
+            </div>
+        </div>
+    
+        <div class="container-fluid">
+          <div class="row d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-white bg-black" id="nav">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="index.html"></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/carnevacuna.html">Carne vacuna</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/polloycerdo.html">Pollo y cerdo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/preparados.html">Preparados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/congelados.html">Congelados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/sucursales.html">Sucursales</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-white" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </div>
       </div>
-
-      <nav class="header__nav">
-        <ul class="header__nav__ul">
-            <li class="header__nav__ul__li">
-                <a class="header__nav__ul__a" href="../index.html"
-                  >Home</a
-                >
-          </li>
-          <li class="header__nav__ul__li">
-            <a class="header__nav__ul__a" href="../pages/carnevacuna.html"
-              >Carne vacuna</a
-            >
-          </li>
-          <li class="header__nav__ul__li">
-            <a class="header__nav__ul__a" href="../pages/polloycerdo.html"
-              >Pollo y cerdo</a
-            >
-          </li>
-          <li class="header__nav__ul__li">
-            <a class="header__nav__ul__a" href="../pages/preparados.html"
-              >Preparados</a
-            >
-          </li>
-          <li class="header__nav__ul__li">
-            <a class="header__nav__ul__a" href="../pages/congelados.html"
-              >Congelados</a
-            >
-          </li>
-          <li class="header__nav__ul__li">
-            <a class="header__nav__ul__a" href="../pages/contacto.html">Contacto</a>
-          </li>
-          <li class="header__nav__ul__li">
-            <a class="header__nav__ul__a" href="../pages/ofertas.html">Ofertas</a>
-          </li>
-          <li class="header__nav__ul__li">
-            <a class="header__nav__ul__a" href="../pages/sucursales.html"
-              >Sucursales</a
-            >
-          </li>
-          <li class="header__nav__ul__li">
-            <a
-              class="header__nav__ul__a"
-              href="http://www.google.com"
-              target="_blank"
-              >Buscar</a
-            >
-          </li>
-        </ul>
-      </nav>
+        </nav>
     </header>
 
     <main>
-        <div class="destacados__titulo">
-          <p class="destacados__titulo__producto">
-           En tienda de carne el Trebol tenemos una gran cantidad de productos congelados de excelente calidad. Tenemos una gran variedad de papas fritas, verduras, milanesas de soja y derivados de pollo (patitas, bocaditos, etc). Estos productos son muy importantes para brindarles a la gente una comida rapida y sencilla.
-          </p>
+        <div class="borde col-sm-6 col-md-12 col-xl-12 alignText mx-auto" id="ofertas">
+            <h1 class="display-4 d-flex justify-content-center">Tenemos una gran variedad de productos congelados</h1>
+            <div class="container">
+              <div class="row d-flex justify-content-center">
+
+                <div class="col">
+                    <img class="main__destacados__foto"
+                    src="../assets/pollo1.jpg"
+                    alt="pollo1"/>
+                <p class="main__destacados__parrafo">Patitas de pollo</p>
+                <p>$ 550,00 por kilo</p>
+                </div>
+
+                <div class="col">
+                    <img class="main__destacados__foto"
+                    src="../assets/carnevacuna1.jpg"
+                    alt="cerdo2"/>
+                    <p class="main__destacados__parrafo">Nuguets</p>
+                    <p>$ 650,00 por kilo</p>
+                </div>
+
+                <div class="col">
+                    <img class="main__destacados__foto"
+                    src="../assets/carnevacuna2.jpg"
+                    alt="cerdo3"/>
+                    <p class="main__destacados__parrafo">Formitas de pollo</p>
+                    <p>$ 700,00 por kilo</p>
+                </div>
+
+                <div class="col">
+                    <img class="main__destacados__foto"
+                    src="../assets/carnevacuna3.jpg"
+                    alt="pollo1"/>
+                    <p class="main__destacados__parrafo">Papas baston</p>
+                    <p>$ 450,00 por kilo</p>
+                    </div>
+
+                <div class="col">
+                    <img class="main__destacados__foto"
+                    src="../assets/cerdo2.jpg"
+                    alt="cerdo2"/>
+                    <p class="main__destacados__parrafo">Papas smiles</p>
+                    <p>$ 550,00 por kilo</p>
+                </div>
+
+                <div class="col">
+                    <img class="main__destacados__foto"
+                    src="../assets/cerdo3.jpg"
+                    alt="cerdo3"/>
+                    <p class="main__destacados__parrafo">Papas noisette</p>
+                    <p>$ 500,00 por kilo</p>
+                </div>
+
+                <div class="col">
+                    <img class="main__destacados__foto"
+                    src="../assets/pollo1.jpg"
+                    alt="pollo1"/>
+                    <p class="main__destacados__parrafo">Bastones de muzarella</p>
+                    <p>$ 750,00 por kilo</p>
+                    </div>
+
+                <div class="col">
+                    <img class="main__destacados__foto"
+                    src="../assets/cerdo2.jpg"
+                    alt="cerdo2"/>
+                    <p class="main__destacados__parrafo">Bocaditos de verdura</p>
+                    <p>$ 699,00 por kilo</p>
+                </div>
+
+                <div class="col">
+                    <img class="main__destacados__foto"
+                    src="../assets/cerdo3.jpg"
+                    alt="cerdo3"/>
+                    <p class="main__destacados__parrafo">Bocaditos de calabaza</p>
+                    <p>$ 699,00 por kilo</p>
+                </div>
+                </div>
+            </div>
         </div>
-        <table border="1" class="destacados__titulo__producto__tabla">
-          <tr>
-            <th>Peso</th>
-            <th>Nombre</th>
-            <th>Descripcion</th>
-            <th>Precio en pesos</th>
-            <th>Producto</th>
-          </tr>
-          <tr>
-            <td>01</td>
-            <td>Pollo</td>
-            <td>El pollo se puede cocinar entero al horno o fraccionado</td>
-            <td>200</td>
-            <td><img src="../assets/carnevacuna2.jpg" alt=""></td>
-          </tr>
-          <tr>
-            <td>02</td>
-            <td>Suprema</td>
-            <td>Excelente para la plancha o para elaborar milanesas</td>
-            <td>600</td>
-            <td><img src="../assets/carnevacuna1.jpg" alt=""></td>
-          </tr>
-          <tr>
-            <td>03</td>
-            <td>Bondiola</td>
-            <td>Ideal para plancha y parrilla. Sabroso y tierno</td>
-            <td>700</td>
-            <td><img src="../assets/carnevacuna3.jpg" alt=""></td>
-          </tr>
-          <tr>
-            <td>05</td>
-            <td>Carre</td>
-            <td>Corte ideal para el horno y la cacerola</td>
-            <td>699</td>
-            <td><img src="../assets/cerdo2.jpg" alt=""></td>
-          </tr>
-          <tr>
-            <td>06</td>
-            <td>Chorrasco de cerdo</td>
-            <td>
-              Corte excelente para el horno y la parrilla.
-            </td>
-            <td>250</td>
-            <td><img src="../assets/carnevacuna2.jpg" alt=""></td>
-          </tr>
-          <tr>
-            <td>07</td>
-            <td>Pechito de cerdo</td>
-            <td>Corte ideal la parrilla. Tierna y sabrona</td>
-            <td>799</td>
-            <td><img src="../assets/cerdo3.jpg" alt=""></td>
-          </tr>
-          <tr>
-            <td>09</td>
-            <td>Roas beef</td>
-            <td>Este corte de destaca para picar y elaborar</td>
-            <td>699</td>
-            <td><img src="../assets/carnevacuna3.jpg" alt=""></td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>Roas beef</td>
-            <td>Este corte de destaca para picar y elaborar</td>
-            <td>699</td>
-            <td><img src="../assets/carnevacuna3.jpg" alt=""></td>
-          </tr>
-          <tr>
-            <td>09</td>
-            <td>Roas beef</td>
-            <td>Este corte de destaca para picar y elaborar</td>
-            <td>699</td>
-            <td><img src="../assets/carnevacuna3.jpg" alt=""></td>
-          </tr>
-        </table>
-      </section>
     </main>
 
-    <footer class="footer">
-      <div class="footer__div">
-        <p class="footer__div__p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sit
-          neque tempora expedita distinctio possimus quod aliquam sed, quidem ad
-          qui? Distinctio vel eos at, quisquam excepturi officiis hic quibusdam!
-          Voluptate praesentium quas necessitatibus vero, amet corporis animi
-          temporibus iure fugit beatae dolore similique ea quod maxime incidunt
-          ipsa ratione dolorem corrupti!
-        </p>
-      </div>
-      <ul class="footer__ul">
-        <li class="footer__ul__li">
-          <a class="footer__ul__li__a" href="footer/nosotros.html">Nosotros</a>
-        </li>
-        <!-- Formulario -->
-        <li class="footer__ul__li">
-          <a class="footer__ul__li__a" href="pages/contacto.html">Escribinos</a>
-        </li>
-        <li class="footer__ul__li">
-          <a class="footer__ul__li__a" href="footer/redes.html"
-            >Visitanos en nuestras redes</a
-          >
-        </li>
-        <li class="footer__ul__li">
-          <a class="footer__ul__li__a">Como comprar</a>
-        </li>
-        <li class="footer__ul__li"><a class="footer__ul__li__a">Ayuda</a></li>
-        <li class="footer__ul__li">
-          <a class="footer__ul__li__a">Condiciones</a>
-        </li>
-      </ul>
+  <div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#">Comprar</a></li>
+                        <li><a href="#">Envios</a></li>
+                        <li><a href="#">Formas de pago</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Nosotros</h3>
+                    <ul>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Redes</a></li>
+                        <li><a href="#">Sucursales</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Company Name</h3>
+                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">El trebol© 2018</p>
+        </div>
     </footer>
-  </body>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
 </html>
