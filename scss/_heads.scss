@@ -1,0 +1,23 @@
+/*Heads*/
+
+.h1 {
+  height: 100px;
+  text-align: center;
+  padding: 4rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  @extend.h1;
+  margin-left: 30px;
+}
+
+h2 {
+  @extend.h1;
+  font-size: 200px;
+}
+
+h4 {
+  @extend.h1;
+  text-align: center;
+}
