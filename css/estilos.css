@@ -4,11 +4,11 @@
   background-color: black;
 }
 
-.footer-dark h3 {
+.footer-dark h5 {
   margin-top: 0;
   margin-bottom: 12px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 .footer-dark ul {
@@ -23,8 +23,6 @@
   color: inherit;
   text-decoration: none;
   opacity: 0.6;
-  display: flex;
-  justify-content: center;
 }
 
 .footer-dark ul a:hover {
@@ -93,10 +91,11 @@
   text-align: center;
   padding: 4rem;
   font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
 }
 
 h3 {
-  margin-left: 30px;
+  text-align: left;
 }
 
 h2 {
@@ -126,6 +125,7 @@ h4 {
   color: white !important;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
+  text-transform: uppercase;
 }
 .header .nav-item {
   color: white !important;
@@ -134,6 +134,9 @@ h4 {
 }
 .header .navbar-toggler button {
   border: 1px solid white !important;
+}
+.header .btn {
+  background-color: white !important;
 }
 
 /*Main*/

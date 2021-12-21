@@ -5,11 +5,12 @@
   text-align: center;
   padding: 4rem;
   font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
 }
 
 h3 {
   @extend.h1;
-  margin-left: 30px;
+  text-align:left;
 }
 
 h2 {

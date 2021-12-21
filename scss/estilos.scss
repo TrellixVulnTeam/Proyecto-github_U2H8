@@ -25,6 +25,7 @@ $font-size: 20px;
     color: white !important;
     font-family: $font-family;
     font-size: $font-size;
+    text-transform: uppercase;
   }
   .nav-item {
     color: white !important;
@@ -33,6 +34,9 @@ $font-size: 20px;
   }
   .navbar-toggler button {
     border: 1px solid white !important;
+  }
+  .btn {
+    background-color: white !important;
   }
 }
 

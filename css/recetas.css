@@ -26,6 +26,14 @@
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
   }
+
+  .receta-link {
+    color: black !important;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-transform:uppercase;
+    text-decoration: none;
+  }
   
   .navbar-toggler-icon {
     background-color: white;
@@ -34,10 +42,10 @@
   .navbar-toggler {
     border: 2px solid white !important;
   }
-
+  
   .navbar-toggler-icon:hover {
     filter: opacity(50%);
-  }  
+  }
 
   .btn {
     background-color: white !important;
@@ -46,17 +54,21 @@
   h1 {
     text-align: left;
     margin-top: 30px !important;
+    padding: 0px, 10px, 0px, 10px;
     font-family: "Open Sans", sans-serif;
-    font-size: 40px !important;   
   }
-
+  
   .col{
       margin-top: 40px !important;
+      margin-bottom: 20px;
   }
   
   .main__destacados__foto {
     width: 300px;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
   }
   
   .main__destacados__parrafo {
@@ -66,19 +78,6 @@
     text-transform: uppercase;
     color: black;
     margin-top: 10px;
-  }
-
-  .main__destacados__foto {
-    width: 220px;
-    height: 220px;
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-timing-function: linear;
-  }
-  
-  .main__destacados__foto:hover {
-    width: 230px;
-    height: 230px;
   }
   
   .footer-dark {
@@ -170,3 +169,4 @@
     font-size: 13px;
     margin-bottom: 0;
   }
+  

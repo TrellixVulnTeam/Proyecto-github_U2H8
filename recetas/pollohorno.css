@@ -34,11 +34,11 @@
   .navbar-toggler {
     border: 2px solid white !important;
   }
-
+  
   .navbar-toggler-icon:hover {
     filter: opacity(50%);
-  }  
-
+  }
+  
   .btn {
     background-color: white !important;
   }
@@ -46,39 +46,34 @@
   h1 {
     text-align: left;
     margin-top: 30px !important;
+    padding: 0px, 10px, 0px, 10px;
     font-family: "Open Sans", sans-serif;
-    font-size: 40px !important;   
   }
 
+  .titulo{
+      display: flex;
+      justify-content: space-around;
+      font-family: "Open Sans", sans-serif;
+      margin-top: 20px;
+  }
+  
   .col{
       margin-top: 40px !important;
   }
-  
-  .main__destacados__foto {
-    width: 300px;
-    height: 300px;
+
+  body {
+      background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
   }
   
-  .main__destacados__parrafo {
-    height: 10px;
-    font-size: 20px;
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-    color: black;
+  .main__destacados__foto {
+    width: 250px;
+    height: 200px;
     margin-top: 10px;
   }
-
-  .main__destacados__foto {
-    width: 220px;
-    height: 220px;
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-timing-function: linear;
-  }
   
-  .main__destacados__foto:hover {
-    width: 230px;
-    height: 230px;
+  .col-sm-3 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
   }
   
   .footer-dark {
@@ -170,3 +165,4 @@
     font-size: 13px;
     margin-bottom: 0;
   }
+  
